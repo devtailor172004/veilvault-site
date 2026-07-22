@@ -1,147 +1,58 @@
-# 👑 VeilVault — The Royal Treasury of the Digital Age
+<div align="center">
+  <img src="https://img.shields.io/badge/VeilVault-Royal_Treasury-D4AF37?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIxNSIgZmlsbD0iI0Q0QUYzNyIgZmlsbC1vcGFjaXR5PSIwLjIiLz48Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIxNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRDRBRjM3IiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIyMCIgeT0iMjUiIGZvbnQtc2l6ZT0iMTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNENEFGMzciPkI8L3RleHQ+PC9zdmc+" alt="VeilVault"/>
+</div>
 
-**VeilVault** is a private tipping platform on **Base Sepolia** that lets you send ETH to any ENS name or wallet address — no accounts, no middlemen, no tracking.
+<h1 align="center">👑 VeilVault</h1>
+<h3 align="center">The Royal Treasury — Private Transactions on Base</h3>
 
-> *Renaissance-inspired private banking for the blockchain era.*
+<p align="center">
+  <a href="https://veilvault.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-D4AF37?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Demo"/>
+  </a>
+  <img src="https://img.shields.io/badge/Network-Base_Sepolia-0052FF?style=for-the-badge&logo=base&logoColor=white" alt="Network"/>
+  <img src="https://img.shields.io/badge/Status-Active-D4AF37?style=for-the-badge" alt="Status"/>
+</p>
 
 ---
+
+## 👑 Overview
+
+**VeilVault** is a Renaissance-themed private tipping platform on **Base Sepolia**. Send ETH directly to ENS names or wallet addresses without accounts, middlemen, or tracking. Experience the elegance of a Royal Treasury in the modern blockchain era.
 
 ## ✨ Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔒 **Private Dispatches** | Direct wallet-to-wallet transactions. No custody, no middlemen. |
-| 🌐 **ENS Resolution** | Send tips to `vitalik.eth` instead of copying hex addresses. |
-| 🏦 **Royal Treasury Dashboard** | Real-time balance, transaction history, activity heatmap, treasury health. |
-| ⚡ **Base Sepolia** | Built on Base for low fees (~$0.01) and fast confirmations (~2 sec). |
-| 🎨 **Renaissance Design** | Warm ivory, gold, brass — a premium financial institution experience. |
-| 🔍 **Creator Search** | Find any ENS name or wallet address instantly. |
+| 🏦 **Treasury Dashboard** | Real-time balance tracking and treasury health metrics |
+| 📖 **Royal Ledger** | Complete transaction history with wax seal animations |
+| 🔍 **ENS Resolution** | Search and resolve any ENS name instantly |
+| 🗺️ **Activity Heatmap** | Visual dispatch history and network activity |
+| 📊 **Analytics** | Transaction volume, trends, and treasury insights |
+| 🎴 **Premium UI** | Renaissance-inspired design with engraved cards |
 
----
+## 🚀 Live Site
 
-## 🚀 Live Demo
+Visit the Royal Treasury at [**veilvault.vercel.app**](https://veilvault.vercel.app)
 
-**→ [veilvault.vercel.app](https://veilvault.vercel.app)**
+## 🛠️ Technology
 
-No installation needed. Just connect your MetaMask wallet on **Base Sepolia** testnet (Chain ID: 84532) and send your first dispatch.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/wagmi-000000?style=for-the-badge&logo=wagmi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
 
-> **Note:** This app uses Base Sepolia testnet. Get free test ETH from a [Base Sepolia faucet](https://www.alchemy.com/faucets/base-sepolia).
+## 📬 Contact
 
----
+<p align="center">
+  <a href="https://github.com/devtailor172004">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+  <a href="https://x.com/devtailor">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x" alt="X"/>
+  </a>
+</p>
 
-## 🏛️ The Royal Treasury Experience
-
-```
-┌─────────────────────────────────────┐
-│         👑 VEILVAULT                │
-│    The Royal Treasury               │
-├─────────────────────────────────────┤
-│                                     │
-│   💰 Treasury Balance              │
-│   0.0100 ETH                        │
-│                                     │
-│   📜 Book of Transactions          │
-│   ├─ Dispatch to vitalik.eth       │
-│   ├─ Dispatch to jesse.base.eth    │
-│   └─ View all on BaseScan          │
-│                                     │
-│   📊 Treasury Health               │
-│   ├─ Activity Heatmap              │
-│   ├─ Volume Chart                  │
-│   └─ Network Status                │
-│                                     │
-└─────────────────────────────────────┘
-```
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **[Next.js 15](https://nextjs.org/)** | React framework with App Router |
-| **[wagmi](https://wagmi.sh/) + [viem](https://viem.sh/)** | Wallet connection & blockchain interaction |
-| **[Framer Motion](https://www.framer.com/motion/)** | Animations & transitions |
-| **[Base Sepolia](https://base.org/)** | L2 blockchain (Chain ID: 84532) |
-| **[ENS](https://ens.domains/)** | Name resolution via `api.ensideas.com` |
-| **[Tailwind CSS](https://tailwindcss.com/)** | Styling |
-| **[Lenis](https://lenis.discourse.team/)** | Smooth scrolling |
-
----
-
-## 📦 Getting Started
-
-### Prerequisites
-
-- **Node.js 18+** and **npm**
-- **MetaMask** (or any WalletConnect-compatible wallet)
-- **Test ETH** on Base Sepolia (get from a [faucet](https://www.alchemy.com/faucets/base-sepolia))
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/devtailor172004/veilvault.git
-cd veilvault
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Environment Variables
-
-Create a `.env.local` file (optional — app works without it):
-
-```env
-NEXT_PUBLIC_BASESCAN_API_KEY=your_basescan_api_key
-```
-
----
-
-## 🧭 How to Use
-
-### 1. Open Your Treasury
-Click **"Open Treasury"** to connect your MetaMask wallet. Ensure you're on **Base Sepolia** testnet.
-
-### 2. Search for a Creator
-Enter an ENS name like `vitalik.eth` or paste a `0x` wallet address.
-
-### 3. Dispatch Payment
-Choose an amount (0.001, 0.005, 0.01, 0.05, 0.1, 0.5 ETH or custom) and confirm in MetaMask.
-
-### 4. View Your Royal Ledger
-Navigate to the **Royal Ledger** dashboard to see your balance, transaction history, and treasury health.
-
----
-
-## 📸 Screenshots
-
-| Page | Description |
-|------|-------------|
-| **Hero** | Royal Treasury landing with animated vault door |
-| **Dashboard** | Balance display, activity timeline, charts, treasury health |
-| **Dispatch** | Creator search, amount presets, dispatch form |
-| **FAQs** | Royal Decrees — common questions answered |
-
----
-
-## 🌐 Social
-
-- **GitHub**: [github.com/devtailor172004](https://github.com/devtailor172004)
-- **Twitter / X**: [x.com/SoulBrook23825](https://x.com/SoulBrook23825)
-- **Live App**: [veilvault.vercel.app](https://veilvault.vercel.app)
-
----
-
-## 📄 License
-
-MIT © 2026 VeilVault
-
----
-
-> *"Private transactions on Base. Send dispatches through the Royal Treasury — no accounts, no tracking, no middlemen."*
+<p align="center">Built with ❤️ by <b>Shreexdev</b></p>
